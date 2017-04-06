@@ -4,16 +4,29 @@ layout: default
 
 <div class="blog-tag">
   <h1>Lista de etiquetas</h1>
-  <ul>
-	{% for tag in site.tags %}
-	  <li>
-		  <span class="tag">{{ tag[0] }}</span>
-	  </li>
-	{% endfor %}
-  </ul>
+  <div class="tags-full-list">
+    {% for tag in site.tags %}
+	  <a href="/menu/taglist#{{ tag[0] | slugify }}" class="simple-tag">
+	    <i class="fa fa-tag" aria-hidden="true">{{ tag[0] }}</i>
+	  </a>
+    {% endfor %}
+  </div>
+  <div class="tags-postlist">
+    {% for tag in site.tags %}
+	  <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+      <ul>
+        {% for post in tag[1] %}
+          <li>
+		    <a class="tag-post" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+		      <small class="post-date">{{ post.date | date_to_string }}</small>
+		    </a>
+		  </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
 </div>
 <div class="blog">
-
   <h1 class="blog-heading">{{page.entrada}}</h1>
   
   {{ content }}
@@ -29,5 +42,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
 </div>
