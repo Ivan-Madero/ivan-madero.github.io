@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div>
+    <h1>Posts</h1>
+  <div class="tags-full-list">
+    {% for tag in site.tags %}
+	  <a href="/posts/#{{ tag[0] | slugify }}" class="simple-tag">
+	    <i class="fa fa-tag" aria-hidden="true">{{ tag[0] }}</i>
+	  </a>
+    {% endfor %}
+  </div>
+  <div class="tags-postlist">
+    {% for tag in site.tags %}
+	  <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+      <ul>
+        {% for post in tag[1] %}
+          <li>
+		    <a class="tag-post" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+		      <small class="post-date">{{ post.date | date_to_string }}</small>
+		    </a>
+		  </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+  {{ content }}	
+</div>

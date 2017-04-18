@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "ZTE V8"
+date:   2017-01-05 11:29:09 +0200
+tags: Moviles ZTE
+---
+
+## ZTE Blade V8, con doble cámara, llega a España
+
+`ZTE` ha lanzado este martes en España el último modelo de su serie 
+Blade, el Blade V8, con la intención de que los usuarios puedan capturar 
+la belleza del mundo. Y es que el nuevo «smartphone» está equipado con 
+funcionalidades que permiten obtener impresionantes fotos Bokeh 
+(la más actual técnica de desenfoque de imágenes) e innovadores efectos 
+3D. Con estas características, hasta ahora reservadas a los usuarios de 
+dispositivos de gama alta, `ZTE` se convierte en la primera marca que 
+quiere popularizar estas funcionalidades en un terminal de 
+**menos de 300€.** 
