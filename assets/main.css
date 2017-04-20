@@ -279,9 +279,9 @@ pre {
   list-style: none; }
   .post-list > li {
     margin-bottom: 30px; }
-    
-img < li < .post-list {
-	border-radius: 10%; }
+
+.post-img {
+	border-radius: 10%;}
 	
 .post-meta {
   font-size: 14px;
