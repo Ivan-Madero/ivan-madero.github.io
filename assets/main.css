@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   background-image: url("/img/background2.jpg");
   background-repeat: no-repeat;
   background-position: left top;
@@ -231,7 +231,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
+  color: black;
   margin-left: -15px; }
 
 .footer-col {
