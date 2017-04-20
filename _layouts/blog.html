@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!-- El div blog-tag es totalmente independiente, crea un cuadro con las
+etiquetas y el numero de posts que contiene -->
 <div class="blog-tag">
   {% assign tags = site.tags | sort %}
   {% for tag in tags %}
@@ -13,6 +15,8 @@ layout: default
     </span>
   {% endfor %}
 </div>
+
+
 <div class="blog">
   <h1 class="blog-heading">{{page.entrada}}</h1>
   
@@ -26,6 +30,10 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
+        <!-- El codigo esta diseñado con el pensamiento que el nombre de
+        las imagenes y posts nunca se pueden llegar a repetir, las 
+        imagenes son almacenadas en /img/ con el nombre del post
+        substituyendo los espacios por barra baja.-->
         <a href="{{ post.url | relative_url }}"><img class="post-img" src="/img/{{ post.title | replace:' ', '_' }}.jpg" width="400"></img></a>
       </li>
     {% endfor %}
