@@ -280,7 +280,7 @@ pre {
   .post-list > li {
     margin-bottom: 30px; }
     
-img .post-list {
+img > li > .post-list {
 	border-radius: 10%; }
 	
 .post-meta {
