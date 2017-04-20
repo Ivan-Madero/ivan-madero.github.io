@@ -26,7 +26,7 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        {{ post.title }}
+        {{ post.title | replace: ' ', '_' }}
         <!-- Revisar! 
         <img src="/img/{{ post.title }}" width="400" height="300"></img>-->
       </li>
