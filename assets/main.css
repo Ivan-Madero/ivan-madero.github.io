@@ -287,6 +287,10 @@ pre {
 /**
  * Posts
  */
+img .post-content {
+  width: 800px;
+  height: 370px}
+
 .post-header {
   margin-bottom: 30px; }
 
