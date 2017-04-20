@@ -279,7 +279,10 @@ pre {
   list-style: none; }
   .post-list > li {
     margin-bottom: 30px; }
-
+    
+img .post-list {
+	border-radius: 10%; }
+	
 .post-meta {
   font-size: 14px;
   color: #828282; }
@@ -494,7 +497,8 @@ img .post-content {
  */
 .blog-heading {
   font-size: 35px;
-  color: blue; }
+  color: #2a7ae2; }
+
 
 .blog-tag {
 	position: absolute;
