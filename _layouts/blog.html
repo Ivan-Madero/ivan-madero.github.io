@@ -25,8 +25,9 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2> 
-        <img src="/img/{{ post.title | replace:'_', ' ' }}.jpg" width="400"></img>
+        </h2>
+        {% assign nameimg = post.title | replace:'_', ' ' %} 
+        <img src="/img/{{ nameimg }}.jpg" width="400"></img>
       </li>
     {% endfor %}
   </ul>
