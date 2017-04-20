@@ -5,6 +5,8 @@ date:   2017-01-06 11:29:09 +0200
 tags: Humanismo Proyecto
 ---
 
+![imagen](/img/Proyecto_nuevoHUMANISMO.jpg)
+
 ## El humanismo se bate en retirada. Una persona culta parece un ser anacrónico en la época de Google.
 
 El humanismo se bate en retirada. En todos los países se presiona a los 

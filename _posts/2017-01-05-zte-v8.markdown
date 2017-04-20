@@ -5,6 +5,8 @@ date:   2017-01-05 11:29:09 +0200
 tags: Moviles ZTE
 ---
 
+![imagen](/img/ZTE_V8.jpg)
+
 ## ZTE Blade V8, con doble cámara, llega a España
 
 `ZTE` ha lanzado este martes en España el último modelo de su serie 

@@ -5,6 +5,8 @@ date:   2017-01-04 11:29:09 +0200
 tags: Moviles Flexible
 ---
 
+![imagen](/img/Movil_flexible.jpg)
+
 ## La mentira (por ahora) del móvil flexible
 
 Es el cuento de nunca acabar. En esa interminable búsqueda de la próxima 

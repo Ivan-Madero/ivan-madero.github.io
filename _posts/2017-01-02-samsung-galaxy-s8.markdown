@@ -5,6 +5,8 @@ date:   2017-01-02 11:29:09 +0200
 tags: Samsung Moviles
 ---
 
+![imagen](/img/Samsung_Galxy_S8.jpg)
+
 ## Samsung lo tiene difícil para marcar récord de ventas con el Galaxy S8
 
 Lo tiene difícil `Samsung` para volver a marcar récord de ventas a nivel

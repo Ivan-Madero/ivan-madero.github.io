@@ -5,6 +5,8 @@ date:   2017-01-03 11:29:09 +0200
 tags: Google Moviles
 ---
 
+![imagen](/img/Google_Pixel.jpg)
+
 ## El motivo por el que los Google Pixel no han triunfado: sus sucesores están en camino
 
 La gama `Nexus` supo aunar dos conceptos: accesibilidad en cuanto a 
