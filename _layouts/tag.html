@@ -4,6 +4,8 @@ layout: default
 
 <div>
     <h1>Posts</h1>
+  
+  <!-- Lista de tags -->
   <div class="tags-full-list">
     {% for tag in site.tags %}
 	  <a href="/posts/#{{ tag[0] | slugify }}" class="simple-tag">
@@ -11,6 +13,10 @@ layout: default
 	  </a>
     {% endfor %}
   </div>
+  
+  <!-- Lista completa de los posts ordenada por los tags, un post puede 
+  salir repetido varias veces dependiendo de las etiquetas que tenga 
+  assignadas -->
   <div class="tags-postlist">
     {% for tag in site.tags %}
 	  <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
