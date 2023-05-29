@@ -17,4 +17,4 @@ Esta pagina ha sido creada por {% include icon-github.html username="Ivan-Madero
 
 **Cursa**: 2n ASIX
 
-**Correo**: [sharkblack15@gmail.com](mailto:{{site.email}})
+**Correo**: [xxx.xxx.xxx@gmail.com](mailto:{{site.email}})
